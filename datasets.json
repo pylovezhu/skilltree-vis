@@ -1,0 +1,62 @@
+{
+  "datasets": [
+    {
+      "id": "python_fullstack",
+      "name": "Python 全栈开发",
+      "jds": [
+        {
+          "title": "Python 后端开发工程师",
+          "description": "我们需要一名精通 Python，熟悉 FastAPI、Django 等 Web 框架，有丰富的后端开发经验的工程师。要求掌握 Pandas、NumPy 进行数据处理，熟练使用 Docker、Kubernetes 进行部署，熟悉 PostgreSQL、Redis 数据库。"
+        },
+        {
+          "title": "全栈开发工程师",
+          "description": "招聘全栈开发工程师，需掌握 Python、JavaScript，熟悉 FastAPI、React/Vue.js，有前后端开发经验。需要熟悉 Docker、Nginx、Git 等工具，了解 MySQL、MongoDB 数据库。"
+        },
+        {
+          "title": "Python 全栈开发",
+          "description": "我们需要一名全栈工程师，精通 Python 和 JavaScript，熟练使用 FastAPI、Django 后端框架，熟悉 React 前端框架。掌握 Docker、PostgreSQL、Redis，有实战经验者优先。"
+        },
+        {
+          "title": "Python Web 开发工程师",
+          "description": "招聘 Python Web 开发，要求熟悉 Flask、Django，掌握 PostgreSQL、Redis，了解 Docker、Linux，有 REST API 开发经验。"
+        }
+      ]
+    },
+    {
+      "id": "java_backend",
+      "name": "Java 后端开发",
+      "jds": [
+        {
+          "title": "Java 后端开发工程师",
+          "description": "招聘 Java 后端工程师，要求精通 Java，熟练使用 Spring Boot、Spring 框架，熟悉 MySQL、Redis，有微服务开发经验。需要掌握 Docker、Kubernetes、Jenkins 进行 CI/CD。"
+        },
+        {
+          "title": "高级 Java 工程师",
+          "description": "我们需要高级 Java 工程师，精通 Spring Boot、Spring Cloud，熟悉 MySQL、Oracle，有高并发系统设计经验。要求掌握 Docker、Kubernetes，熟悉 Linux、Git。"
+        },
+        {
+          "title": "Java 微服务工程师",
+          "description": "招聘 Java 微服务开发，要求熟悉 Spring Boot、Spring Cloud，掌握 MySQL、Redis，了解 Kafka、RabbitMQ，有 Docker、Kubernetes 实战经验。"
+        }
+      ]
+    },
+    {
+      "id": "data_analyst",
+      "name": "数据分析师",
+      "jds": [
+        {
+          "title": "数据分析师",
+          "description": "招聘数据分析师，要求精通 Python、Pandas、NumPy，掌握 TensorFlow、PyTorch，熟悉 Scikit-learn 机器学习算法。需要了解 Spark、Hadoop 大数据处理，熟悉 MySQL、PostgreSQL 数据库。"
+        },
+        {
+          "title": "机器学习工程师",
+          "description": "招聘机器学习工程师，要求精通 Python、PyTorch、TensorFlow，熟悉 Pandas、NumPy、Scikit-learn。了解 Kafka、Spark 大数据处理，熟悉 Docker、Kubernetes 部署。"
+        },
+        {
+          "title": "数据科学家",
+          "description": "我们需要数据科学家，精通 Python、R，熟悉 Pandas、NumPy，掌握 TensorFlow、PyTorch，了解 Spark、Hadoop，有数据分析和建模经验。"
+        }
+      ]
+    }
+  ]
+}

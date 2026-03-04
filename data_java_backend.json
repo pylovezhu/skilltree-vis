@@ -1,0 +1,663 @@
+{
+  "categories": [
+    {
+      "name": "编程语言"
+    },
+    {
+      "name": "Web框架"
+    },
+    {
+      "name": "数据处理"
+    },
+    {
+      "name": "容器部署"
+    },
+    {
+      "name": "数据库"
+    },
+    {
+      "name": "其他工具"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Java",
+      "name": "Java",
+      "symbolSize": 59.0,
+      "category": 0,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "企业级编程语言，跨平台，生态系统完善",
+      "difficulty": "中级",
+      "learning_weeks": 8,
+      "resources": [
+        "Thinking in Java",
+        "尚硅谷Java教程"
+      ]
+    },
+    {
+      "id": "R",
+      "name": "R",
+      "symbolSize": 59.0,
+      "category": 0,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "统计分析和数据可视化专用语言",
+      "difficulty": "中级",
+      "learning_weeks": 6,
+      "resources": [
+        "R语言实战",
+        "R for Data Science"
+      ]
+    },
+    {
+      "id": "Spring Boot",
+      "name": "Spring Boot",
+      "symbolSize": 59.0,
+      "category": 1,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#009688"
+      },
+      "description": "Java企业级开发首选框架",
+      "difficulty": "中级",
+      "learning_weeks": 6,
+      "resources": [
+        "Spring Boot官方文档",
+        "Spring Boot实战"
+      ]
+    },
+    {
+      "id": "Spring",
+      "name": "Spring",
+      "symbolSize": 59.0,
+      "category": 1,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#009688"
+      },
+      "description": "Java企业级开发核心框架",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Spring官方文档",
+        "Spring实战"
+      ]
+    },
+    {
+      "id": "Docker",
+      "name": "Docker",
+      "symbolSize": 59.0,
+      "category": 3,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "容器化技术，应用打包部署",
+      "difficulty": "入门",
+      "learning_weeks": 2,
+      "resources": [
+        "Docker官方文档",
+        "Docker从入门到实践"
+      ]
+    },
+    {
+      "id": "Kubernetes",
+      "name": "Kubernetes",
+      "symbolSize": 59.0,
+      "category": 3,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "容器编排平台，管理大规模容器",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Kubernetes官方文档",
+        "Kubernetes权威指南"
+      ]
+    },
+    {
+      "id": "Jenkins",
+      "name": "Jenkins",
+      "symbolSize": 39.666666666666664,
+      "category": 3,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "持续集成和持续部署工具",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "Jenkins官方文档",
+        "Jenkins权威指南"
+      ]
+    },
+    {
+      "id": "MySQL",
+      "name": "MySQL",
+      "symbolSize": 59.0,
+      "category": 4,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#f29111"
+      },
+      "description": "最流行的开源关系型数据库",
+      "difficulty": "入门",
+      "learning_weeks": 3,
+      "resources": [
+        "MySQL官方文档",
+        "MySQL必知必会"
+      ]
+    },
+    {
+      "id": "Redis",
+      "name": "Redis",
+      "symbolSize": 49.33333333333333,
+      "category": 5,
+      "count": 2,
+      "tfidf": 6.6667,
+      "itemStyle": {
+        "color": "#f05032"
+      },
+      "description": "高性能内存键值存储数据库",
+      "difficulty": "入门",
+      "learning_weeks": 2,
+      "resources": [
+        "Redis官方文档",
+        "Redis设计与实现"
+      ]
+    },
+    {
+      "id": "Oracle",
+      "name": "Oracle",
+      "symbolSize": 39.666666666666664,
+      "category": 4,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#f29111"
+      },
+      "description": "企业级关系型数据库",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Oracle官方文档",
+        "Oracle数据库"
+      ]
+    },
+    {
+      "id": "Git",
+      "name": "Git",
+      "symbolSize": 39.666666666666664,
+      "category": 5,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#f05032"
+      },
+      "description": "分布式版本控制系统",
+      "difficulty": "入门",
+      "learning_weeks": 1,
+      "resources": [
+        "Git官方文档",
+        "Pro Git"
+      ]
+    },
+    {
+      "id": "Linux",
+      "name": "Linux",
+      "symbolSize": 39.666666666666664,
+      "category": 5,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#f05032"
+      },
+      "description": "开源操作系统，服务器必备",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "鸟哥的Linux私房菜",
+        "Linux从入门到精通"
+      ]
+    },
+    {
+      "id": "Kafka",
+      "name": "Kafka",
+      "symbolSize": 39.666666666666664,
+      "category": 2,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "分布式消息队列系统",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "Kafka官方文档",
+        "Kafka权威指南"
+      ]
+    },
+    {
+      "id": "RabbitMQ",
+      "name": "RabbitMQ",
+      "symbolSize": 39.666666666666664,
+      "category": 5,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#f05032"
+      },
+      "description": "开源消息队列系统",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "RabbitMQ官方文档",
+        "RabbitMQ实战"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "Java",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "Java",
+      "target": "Spring Boot",
+      "value": 3
+    },
+    {
+      "source": "Java",
+      "target": "Spring",
+      "value": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Java",
+      "value": 3
+    },
+    {
+      "source": "Java",
+      "target": "Kubernetes",
+      "value": 3
+    },
+    {
+      "source": "Java",
+      "target": "Jenkins",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "MySQL",
+      "value": 3
+    },
+    {
+      "source": "Java",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "R",
+      "target": "Spring Boot",
+      "value": 3
+    },
+    {
+      "source": "R",
+      "target": "Spring",
+      "value": 3
+    },
+    {
+      "source": "Docker",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "Kubernetes",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "Jenkins",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "R",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "Spring",
+      "target": "Spring Boot",
+      "value": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Spring Boot",
+      "value": 3
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Spring Boot",
+      "value": 3
+    },
+    {
+      "source": "Jenkins",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Spring Boot",
+      "value": 3
+    },
+    {
+      "source": "Redis",
+      "target": "Spring Boot",
+      "value": 2
+    },
+    {
+      "source": "Docker",
+      "target": "Spring",
+      "value": 3
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Spring",
+      "value": 3
+    },
+    {
+      "source": "Jenkins",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Spring",
+      "value": 3
+    },
+    {
+      "source": "Redis",
+      "target": "Spring",
+      "value": 2
+    },
+    {
+      "source": "Docker",
+      "target": "Kubernetes",
+      "value": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Jenkins",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "MySQL",
+      "value": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "Jenkins",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "MySQL",
+      "value": 3
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "Jenkins",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "Redis",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "Java",
+      "target": "Oracle",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Java",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "Oracle",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Linux",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Oracle",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Linux",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Oracle",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Linux",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Oracle",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Git",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Oracle",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Oracle",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Linux",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Oracle",
+      "value": 1
+    },
+    {
+      "source": "Linux",
+      "target": "Oracle",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "Kafka",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "RabbitMQ",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "RabbitMQ",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "RabbitMQ",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "RabbitMQ",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Kafka",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Redis",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "RabbitMQ",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "RabbitMQ",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "RabbitMQ",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "RabbitMQ",
+      "value": 1
+    },
+    {
+      "source": "RabbitMQ",
+      "target": "Redis",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "categories": [
+    {
+      "name": "编程语言"
+    },
+    {
+      "name": "Web框架"
+    },
+    {
+      "name": "数据处理"
+    },
+    {
+      "name": "容器部署"
+    },
+    {
+      "name": "数据库"
+    },
+    {
+      "name": "其他工具"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Python",
+      "name": "Python",
+      "symbolSize": 59.0,
+      "category": 0,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "简洁优雅的编程语言，广泛用于数据分析、Web开发和AI",
+      "difficulty": "入门",
+      "learning_weeks": 4,
+      "resources": [
+        "官方教程",
+        "廖雪峰Python教程"
+      ]
+    },
+    {
+      "id": "R",
+      "name": "R",
+      "symbolSize": 59.0,
+      "category": 0,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "统计分析和数据可视化专用语言",
+      "difficulty": "中级",
+      "learning_weeks": 6,
+      "resources": [
+        "R语言实战",
+        "R for Data Science"
+      ]
+    },
+    {
+      "id": "Pandas",
+      "name": "Pandas",
+      "symbolSize": 59.0,
+      "category": 2,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Python数据分析核心库",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "Pandas官方文档",
+        "利用Python进行数据分析"
+      ]
+    },
+    {
+      "id": "NumPy",
+      "name": "NumPy",
+      "symbolSize": 59.0,
+      "category": 2,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Python科学计算基础库",
+      "difficulty": "中级",
+      "learning_weeks": 2,
+      "resources": [
+        "NumPy官方文档",
+        "Python科学计算"
+      ]
+    },
+    {
+      "id": "TensorFlow",
+      "name": "TensorFlow",
+      "symbolSize": 59.0,
+      "category": 2,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Google开发的深度学习框架",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "TensorFlow官方文档",
+        "TensorFlow实战"
+      ]
+    },
+    {
+      "id": "PyTorch",
+      "name": "PyTorch",
+      "symbolSize": 59.0,
+      "category": 2,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Facebook开发的深度学习框架",
+      "difficulty": "高级",
+      "learning_weeks": 6,
+      "resources": [
+        "PyTorch官方文档",
+        "深度学习与PyTorch"
+      ]
+    },
+    {
+      "id": "Scikit-learn",
+      "name": "Scikit-learn",
+      "symbolSize": 49.33333333333333,
+      "category": 2,
+      "count": 2,
+      "tfidf": 6.6667,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Python机器学习库，简单易用",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "Scikit-learn官方文档",
+        "Python机器学习"
+      ]
+    },
+    {
+      "id": "Spark",
+      "name": "Spark",
+      "symbolSize": 59.0,
+      "category": 2,
+      "count": 3,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "大数据处理引擎，内存计算",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Spark官方文档",
+        "Spark快速大数据分析"
+      ]
+    },
+    {
+      "id": "Hadoop",
+      "name": "Hadoop",
+      "symbolSize": 49.33333333333333,
+      "category": 2,
+      "count": 2,
+      "tfidf": 6.6667,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "大数据分布式存储和计算框架",
+      "difficulty": "高级",
+      "learning_weeks": 6,
+      "resources": [
+        "Hadoop官方文档",
+        "Hadoop权威指南"
+      ]
+    },
+    {
+      "id": "MySQL",
+      "name": "MySQL",
+      "symbolSize": 39.666666666666664,
+      "category": 4,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#f29111"
+      },
+      "description": "最流行的开源关系型数据库",
+      "difficulty": "入门",
+      "learning_weeks": 3,
+      "resources": [
+        "MySQL官方文档",
+        "MySQL必知必会"
+      ]
+    },
+    {
+      "id": "PostgreSQL",
+      "name": "PostgreSQL",
+      "symbolSize": 39.666666666666664,
+      "category": 4,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#f29111"
+      },
+      "description": "功能强大的开源关系型数据库",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "PostgreSQL官方文档",
+        "PostgreSQL实战"
+      ]
+    },
+    {
+      "id": "Kafka",
+      "name": "Kafka",
+      "symbolSize": 39.666666666666664,
+      "category": 2,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "分布式消息队列系统",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "Kafka官方文档",
+        "Kafka权威指南"
+      ]
+    },
+    {
+      "id": "Docker",
+      "name": "Docker",
+      "symbolSize": 39.666666666666664,
+      "category": 3,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "容器化技术，应用打包部署",
+      "difficulty": "入门",
+      "learning_weeks": 2,
+      "resources": [
+        "Docker官方文档",
+        "Docker从入门到实践"
+      ]
+    },
+    {
+      "id": "Kubernetes",
+      "name": "Kubernetes",
+      "symbolSize": 39.666666666666664,
+      "category": 3,
+      "count": 1,
+      "tfidf": 3.3333,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "容器编排平台，管理大规模容器",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Kubernetes官方文档",
+        "Kubernetes权威指南"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "Python",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "Pandas",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "NumPy",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "Python",
+      "target": "TensorFlow",
+      "value": 3
+    },
+    {
+      "source": "PyTorch",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "Python",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "Python",
+      "target": "Spark",
+      "value": 3
+    },
+    {
+      "source": "Hadoop",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Pandas",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "NumPy",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "R",
+      "target": "TensorFlow",
+      "value": 3
+    },
+    {
+      "source": "PyTorch",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "R",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "R",
+      "target": "Spark",
+      "value": 3
+    },
+    {
+      "source": "Hadoop",
+      "target": "R",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "NumPy",
+      "target": "Pandas",
+      "value": 3
+    },
+    {
+      "source": "Pandas",
+      "target": "TensorFlow",
+      "value": 3
+    },
+    {
+      "source": "Pandas",
+      "target": "PyTorch",
+      "value": 3
+    },
+    {
+      "source": "Pandas",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "Pandas",
+      "target": "Spark",
+      "value": 3
+    },
+    {
+      "source": "Hadoop",
+      "target": "Pandas",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "Pandas",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "NumPy",
+      "target": "TensorFlow",
+      "value": 3
+    },
+    {
+      "source": "NumPy",
+      "target": "PyTorch",
+      "value": 3
+    },
+    {
+      "source": "NumPy",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "NumPy",
+      "target": "Spark",
+      "value": 3
+    },
+    {
+      "source": "Hadoop",
+      "target": "NumPy",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "NumPy",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "PyTorch",
+      "target": "TensorFlow",
+      "value": 3
+    },
+    {
+      "source": "Scikit-learn",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "Spark",
+      "target": "TensorFlow",
+      "value": 3
+    },
+    {
+      "source": "Hadoop",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "PyTorch",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "PyTorch",
+      "target": "Spark",
+      "value": 3
+    },
+    {
+      "source": "Hadoop",
+      "target": "PyTorch",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "Scikit-learn",
+      "target": "Spark",
+      "value": 2
+    },
+    {
+      "source": "Hadoop",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "Spark",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Kafka",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Kubernetes",
+      "value": 1
+    }
+  ]
+}

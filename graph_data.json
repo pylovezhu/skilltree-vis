@@ -1,0 +1,1998 @@
+{
+  "categories": [
+    {
+      "name": "编程语言"
+    },
+    {
+      "name": "Web框架"
+    },
+    {
+      "name": "数据处理"
+    },
+    {
+      "name": "容器部署"
+    },
+    {
+      "name": "数据库"
+    },
+    {
+      "name": "其他工具"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Python",
+      "name": "Python",
+      "symbolSize": 59.285714285714285,
+      "category": 0,
+      "count": 5,
+      "tfidf": 7.1429,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "简洁优雅的编程语言，广泛用于数据分析、Web开发和AI",
+      "difficulty": "入门",
+      "learning_weeks": 4,
+      "resources": [
+        "官方教程",
+        "廖雪峰Python教程"
+      ]
+    },
+    {
+      "id": "Go",
+      "name": "Go",
+      "symbolSize": 47.57142857142857,
+      "category": 0,
+      "count": 3,
+      "tfidf": 4.2857,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "Google开发的高性能语言，适合微服务和云原生",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "Go语言圣经",
+        "Go by Example"
+      ]
+    },
+    {
+      "id": "R",
+      "name": "R",
+      "symbolSize": 60,
+      "category": 0,
+      "count": 7,
+      "tfidf": 10.0,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "统计分析和数据可视化专用语言",
+      "difficulty": "中级",
+      "learning_weeks": 6,
+      "resources": [
+        "R语言实战",
+        "R for Data Science"
+      ]
+    },
+    {
+      "id": "FastAPI",
+      "name": "FastAPI",
+      "symbolSize": 47.57142857142857,
+      "category": 1,
+      "count": 3,
+      "tfidf": 4.2857,
+      "itemStyle": {
+        "color": "#009688"
+      },
+      "description": "现代Python Web框架，性能极高",
+      "difficulty": "中级",
+      "learning_weeks": 2,
+      "resources": [
+        "FastAPI官方文档",
+        "FastAPI教程"
+      ]
+    },
+    {
+      "id": "Django",
+      "name": "Django",
+      "symbolSize": 41.714285714285715,
+      "category": 1,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#009688"
+      },
+      "description": "Python全栈Web框架，功能完善",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "Django官方文档",
+        "Django for Beginners"
+      ]
+    },
+    {
+      "id": "Pandas",
+      "name": "Pandas",
+      "symbolSize": 47.57142857142857,
+      "category": 2,
+      "count": 3,
+      "tfidf": 4.2857,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Python数据分析核心库",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "Pandas官方文档",
+        "利用Python进行数据分析"
+      ]
+    },
+    {
+      "id": "NumPy",
+      "name": "NumPy",
+      "symbolSize": 47.57142857142857,
+      "category": 2,
+      "count": 3,
+      "tfidf": 4.2857,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Python科学计算基础库",
+      "difficulty": "中级",
+      "learning_weeks": 2,
+      "resources": [
+        "NumPy官方文档",
+        "Python科学计算"
+      ]
+    },
+    {
+      "id": "Docker",
+      "name": "Docker",
+      "symbolSize": 60,
+      "category": 3,
+      "count": 6,
+      "tfidf": 8.5714,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "容器化技术，应用打包部署",
+      "difficulty": "入门",
+      "learning_weeks": 2,
+      "resources": [
+        "Docker官方文档",
+        "Docker从入门到实践"
+      ]
+    },
+    {
+      "id": "Kubernetes",
+      "name": "Kubernetes",
+      "symbolSize": 53.42857142857143,
+      "category": 3,
+      "count": 4,
+      "tfidf": 5.7143,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "容器编排平台，管理大规模容器",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Kubernetes官方文档",
+        "Kubernetes权威指南"
+      ]
+    },
+    {
+      "id": "PostgreSQL",
+      "name": "PostgreSQL",
+      "symbolSize": 47.57142857142857,
+      "category": 4,
+      "count": 3,
+      "tfidf": 4.2857,
+      "itemStyle": {
+        "color": "#f29111"
+      },
+      "description": "功能强大的开源关系型数据库",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "PostgreSQL官方文档",
+        "PostgreSQL实战"
+      ]
+    },
+    {
+      "id": "Redis",
+      "name": "Redis",
+      "symbolSize": 47.57142857142857,
+      "category": 4,
+      "count": 3,
+      "tfidf": 4.2857,
+      "itemStyle": {
+        "color": "#f29111"
+      },
+      "description": "高性能内存键值存储数据库",
+      "difficulty": "入门",
+      "learning_weeks": 2,
+      "resources": [
+        "Redis官方文档",
+        "Redis设计与实现"
+      ]
+    },
+    {
+      "id": "Java",
+      "name": "Java",
+      "symbolSize": 47.57142857142857,
+      "category": 0,
+      "count": 3,
+      "tfidf": 4.2857,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "企业级编程语言，跨平台，生态系统完善",
+      "difficulty": "中级",
+      "learning_weeks": 8,
+      "resources": [
+        "Thinking in Java",
+        "尚硅谷Java教程"
+      ]
+    },
+    {
+      "id": "JavaScript",
+      "name": "JavaScript",
+      "symbolSize": 41.714285714285715,
+      "category": 0,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#377eb8"
+      },
+      "description": "Web前端必备语言，也可用于后端开发",
+      "difficulty": "入门",
+      "learning_weeks": 3,
+      "resources": [
+        "MDN Web文档",
+        "JavaScript高级程序设计"
+      ]
+    },
+    {
+      "id": "Vue.js",
+      "name": "Vue.js",
+      "symbolSize": 35.857142857142854,
+      "category": 1,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#009688"
+      },
+      "description": "渐进式JavaScript框架，上手简单",
+      "difficulty": "入门",
+      "learning_weeks": 2,
+      "resources": [
+        "Vue.js官方文档",
+        "Vue.js实战"
+      ]
+    },
+    {
+      "id": "React",
+      "name": "React",
+      "symbolSize": 41.714285714285715,
+      "category": 1,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#009688"
+      },
+      "description": "Facebook开发的UI库，组件化开发",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "React官方文档",
+        "React进阶之路"
+      ]
+    },
+    {
+      "id": "Nginx",
+      "name": "Nginx",
+      "symbolSize": 41.714285714285715,
+      "category": 3,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "高性能Web服务器和反向代理",
+      "difficulty": "中级",
+      "learning_weeks": 2,
+      "resources": [
+        "Nginx官方文档",
+        "Nginx实战"
+      ]
+    },
+    {
+      "id": "MySQL",
+      "name": "MySQL",
+      "symbolSize": 47.57142857142857,
+      "category": 4,
+      "count": 3,
+      "tfidf": 4.2857,
+      "itemStyle": {
+        "color": "#f29111"
+      },
+      "description": "最流行的开源关系型数据库",
+      "difficulty": "入门",
+      "learning_weeks": 3,
+      "resources": [
+        "MySQL官方文档",
+        "MySQL必知必会"
+      ]
+    },
+    {
+      "id": "MongoDB",
+      "name": "MongoDB",
+      "symbolSize": 35.857142857142854,
+      "category": 4,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#f29111"
+      },
+      "description": "流行的NoSQL文档数据库",
+      "difficulty": "入门",
+      "learning_weeks": 2,
+      "resources": [
+        "MongoDB官方文档",
+        "MongoDB权威指南"
+      ]
+    },
+    {
+      "id": "Git",
+      "name": "Git",
+      "symbolSize": 41.714285714285715,
+      "category": 5,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#f05032"
+      },
+      "description": "分布式版本控制系统",
+      "difficulty": "入门",
+      "learning_weeks": 1,
+      "resources": [
+        "Git官方文档",
+        "Pro Git"
+      ]
+    },
+    {
+      "id": "TensorFlow",
+      "name": "TensorFlow",
+      "symbolSize": 41.714285714285715,
+      "category": 2,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Google开发的深度学习框架",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "TensorFlow官方文档",
+        "TensorFlow实战"
+      ]
+    },
+    {
+      "id": "PyTorch",
+      "name": "PyTorch",
+      "symbolSize": 41.714285714285715,
+      "category": 2,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Facebook开发的深度学习框架",
+      "difficulty": "高级",
+      "learning_weeks": 6,
+      "resources": [
+        "PyTorch官方文档",
+        "深度学习与PyTorch"
+      ]
+    },
+    {
+      "id": "Scikit-learn",
+      "name": "Scikit-learn",
+      "symbolSize": 41.714285714285715,
+      "category": 2,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "Python机器学习库，简单易用",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "Scikit-learn官方文档",
+        "Python机器学习"
+      ]
+    },
+    {
+      "id": "Spark",
+      "name": "Spark",
+      "symbolSize": 41.714285714285715,
+      "category": 2,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "大数据处理引擎，内存计算",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Spark官方文档",
+        "Spark快速大数据分析"
+      ]
+    },
+    {
+      "id": "Hadoop",
+      "name": "Hadoop",
+      "symbolSize": 35.857142857142854,
+      "category": 2,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "大数据分布式存储和计算框架",
+      "difficulty": "高级",
+      "learning_weeks": 6,
+      "resources": [
+        "Hadoop官方文档",
+        "Hadoop权威指南"
+      ]
+    },
+    {
+      "id": "Spring Boot",
+      "name": "Spring Boot",
+      "symbolSize": 35.857142857142854,
+      "category": 1,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#009688"
+      },
+      "description": "Java企业级开发首选框架",
+      "difficulty": "中级",
+      "learning_weeks": 6,
+      "resources": [
+        "Spring Boot官方文档",
+        "Spring Boot实战"
+      ]
+    },
+    {
+      "id": "Spring",
+      "name": "Spring",
+      "symbolSize": 35.857142857142854,
+      "category": 1,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#009688"
+      },
+      "description": "Java企业级开发核心框架",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Spring官方文档",
+        "Spring实战"
+      ]
+    },
+    {
+      "id": "Jenkins",
+      "name": "Jenkins",
+      "symbolSize": 41.714285714285715,
+      "category": 3,
+      "count": 2,
+      "tfidf": 2.8571,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "持续集成和持续部署工具",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "Jenkins官方文档",
+        "Jenkins权威指南"
+      ]
+    },
+    {
+      "id": "GitLab CI",
+      "name": "GitLab CI",
+      "symbolSize": 35.857142857142854,
+      "category": 3,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "GitLab集成的CI/CD工具",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "GitLab CI官方文档",
+        "GitLab CI/CD实践"
+      ]
+    },
+    {
+      "id": "Ansible",
+      "name": "Ansible",
+      "symbolSize": 35.857142857142854,
+      "category": 3,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "自动化配置管理工具",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "Ansible官方文档",
+        "Ansible权威指南"
+      ]
+    },
+    {
+      "id": "Terraform",
+      "name": "Terraform",
+      "symbolSize": 35.857142857142854,
+      "category": 3,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#2496ed"
+      },
+      "description": "基础设施即代码工具",
+      "difficulty": "高级",
+      "learning_weeks": 4,
+      "resources": [
+        "Terraform官方文档",
+        "Terraform实战"
+      ]
+    },
+    {
+      "id": "Linux",
+      "name": "Linux",
+      "symbolSize": 35.857142857142854,
+      "category": 5,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#f05032"
+      },
+      "description": "开源操作系统，服务器必备",
+      "difficulty": "中级",
+      "learning_weeks": 4,
+      "resources": [
+        "鸟哥的Linux私房菜",
+        "Linux从入门到精通"
+      ]
+    },
+    {
+      "id": "AWS",
+      "name": "AWS",
+      "symbolSize": 35.857142857142854,
+      "category": 5,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#f05032"
+      },
+      "description": "亚马逊云服务，领先的云计算平台",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "AWS官方文档",
+        "AWS云服务"
+      ]
+    },
+    {
+      "id": "Azure",
+      "name": "Azure",
+      "symbolSize": 35.857142857142854,
+      "category": 5,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#f05032"
+      },
+      "description": "微软云服务平台",
+      "difficulty": "高级",
+      "learning_weeks": 8,
+      "resources": [
+        "Azure官方文档",
+        "Azure入门"
+      ]
+    },
+    {
+      "id": "Kafka",
+      "name": "Kafka",
+      "symbolSize": 35.857142857142854,
+      "category": 2,
+      "count": 1,
+      "tfidf": 1.4286,
+      "itemStyle": {
+        "color": "#130654"
+      },
+      "description": "分布式消息队列系统",
+      "difficulty": "中级",
+      "learning_weeks": 3,
+      "resources": [
+        "Kafka官方文档",
+        "Kafka权威指南"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "Go",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "Python",
+      "target": "R",
+      "value": 5
+    },
+    {
+      "source": "FastAPI",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "Django",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "Pandas",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "NumPy",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Python",
+      "value": 4
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "Python",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "Go",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "Go",
+      "value": 3
+    },
+    {
+      "source": "Django",
+      "target": "Go",
+      "value": 2
+    },
+    {
+      "source": "Go",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Go",
+      "value": 3
+    },
+    {
+      "source": "Go",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "PostgreSQL",
+      "value": 2
+    },
+    {
+      "source": "Go",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "FastAPI",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "Django",
+      "target": "R",
+      "value": 2
+    },
+    {
+      "source": "Pandas",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "NumPy",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "Docker",
+      "target": "R",
+      "value": 6
+    },
+    {
+      "source": "Kubernetes",
+      "target": "R",
+      "value": 4
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "R",
+      "target": "Redis",
+      "value": 3
+    },
+    {
+      "source": "Django",
+      "target": "FastAPI",
+      "value": 2
+    },
+    {
+      "source": "FastAPI",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "FastAPI",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "FastAPI",
+      "value": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "FastAPI",
+      "target": "PostgreSQL",
+      "value": 2
+    },
+    {
+      "source": "FastAPI",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "Django",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "Django",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "Django",
+      "target": "Docker",
+      "value": 2
+    },
+    {
+      "source": "Django",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Django",
+      "target": "PostgreSQL",
+      "value": 2
+    },
+    {
+      "source": "Django",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "NumPy",
+      "target": "Pandas",
+      "value": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Pandas",
+      "value": 2
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Pandas",
+      "value": 2
+    },
+    {
+      "source": "Pandas",
+      "target": "PostgreSQL",
+      "value": 2
+    },
+    {
+      "source": "Pandas",
+      "target": "Redis",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "NumPy",
+      "value": 2
+    },
+    {
+      "source": "Kubernetes",
+      "target": "NumPy",
+      "value": 2
+    },
+    {
+      "source": "NumPy",
+      "target": "PostgreSQL",
+      "value": 2
+    },
+    {
+      "source": "NumPy",
+      "target": "Redis",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Kubernetes",
+      "value": 4
+    },
+    {
+      "source": "Docker",
+      "target": "PostgreSQL",
+      "value": 2
+    },
+    {
+      "source": "Docker",
+      "target": "Redis",
+      "value": 3
+    },
+    {
+      "source": "Kubernetes",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "Java",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "JavaScript",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "Python",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "Python",
+      "target": "React",
+      "value": 2
+    },
+    {
+      "source": "Nginx",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "MongoDB",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "JavaScript",
+      "value": 2
+    },
+    {
+      "source": "Go",
+      "target": "Java",
+      "value": 2
+    },
+    {
+      "source": "Java",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "Java",
+      "value": 2
+    },
+    {
+      "source": "Java",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "React",
+      "value": 2
+    },
+    {
+      "source": "Docker",
+      "target": "Java",
+      "value": 3
+    },
+    {
+      "source": "Java",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "MySQL",
+      "value": 2
+    },
+    {
+      "source": "Java",
+      "target": "MongoDB",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Java",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "JavaScript",
+      "value": 2
+    },
+    {
+      "source": "JavaScript",
+      "target": "R",
+      "value": 2
+    },
+    {
+      "source": "FastAPI",
+      "target": "JavaScript",
+      "value": 2
+    },
+    {
+      "source": "JavaScript",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "JavaScript",
+      "target": "React",
+      "value": 2
+    },
+    {
+      "source": "Docker",
+      "target": "JavaScript",
+      "value": 2
+    },
+    {
+      "source": "JavaScript",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "JavaScript",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "JavaScript",
+      "target": "MongoDB",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "JavaScript",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "React",
+      "value": 2
+    },
+    {
+      "source": "Go",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "MongoDB",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Go",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "React",
+      "value": 2
+    },
+    {
+      "source": "Nginx",
+      "target": "R",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "R",
+      "value": 3
+    },
+    {
+      "source": "MongoDB",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "R",
+      "value": 2
+    },
+    {
+      "source": "FastAPI",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "FastAPI",
+      "target": "React",
+      "value": 2
+    },
+    {
+      "source": "FastAPI",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "FastAPI",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "FastAPI",
+      "target": "MongoDB",
+      "value": 1
+    },
+    {
+      "source": "FastAPI",
+      "target": "Git",
+      "value": 1
+    },
+    {
+      "source": "React",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "Nginx",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "MongoDB",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Vue.js",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "React",
+      "value": 2
+    },
+    {
+      "source": "Nginx",
+      "target": "React",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "React",
+      "value": 1
+    },
+    {
+      "source": "MongoDB",
+      "target": "React",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "React",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Nginx",
+      "value": 2
+    },
+    {
+      "source": "Docker",
+      "target": "MySQL",
+      "value": 2
+    },
+    {
+      "source": "Docker",
+      "target": "MongoDB",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Git",
+      "value": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "MongoDB",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Nginx",
+      "value": 2
+    },
+    {
+      "source": "MongoDB",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "MongoDB",
+      "value": 1
+    },
+    {
+      "source": "Python",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "PyTorch",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "Python",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "Python",
+      "target": "Spark",
+      "value": 2
+    },
+    {
+      "source": "Hadoop",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "PyTorch",
+      "target": "R",
+      "value": 2
+    },
+    {
+      "source": "R",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "R",
+      "target": "Spark",
+      "value": 2
+    },
+    {
+      "source": "Hadoop",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Pandas",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "Pandas",
+      "target": "PyTorch",
+      "value": 2
+    },
+    {
+      "source": "Pandas",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "Pandas",
+      "target": "Spark",
+      "value": 2
+    },
+    {
+      "source": "Hadoop",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "NumPy",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "NumPy",
+      "target": "PyTorch",
+      "value": 2
+    },
+    {
+      "source": "NumPy",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "NumPy",
+      "target": "Spark",
+      "value": 2
+    },
+    {
+      "source": "Hadoop",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "PyTorch",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "Scikit-learn",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "Spark",
+      "target": "TensorFlow",
+      "value": 2
+    },
+    {
+      "source": "Hadoop",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "PyTorch",
+      "target": "Scikit-learn",
+      "value": 2
+    },
+    {
+      "source": "PyTorch",
+      "target": "Spark",
+      "value": 2
+    },
+    {
+      "source": "Hadoop",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "Scikit-learn",
+      "target": "Spark",
+      "value": 2
+    },
+    {
+      "source": "Hadoop",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "Jenkins",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "Redis",
+      "value": 2
+    },
+    {
+      "source": "R",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "R",
+      "value": 2
+    },
+    {
+      "source": "Spring",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Redis",
+      "target": "Spring Boot",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Redis",
+      "target": "Spring",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Jenkins",
+      "value": 2
+    },
+    {
+      "source": "Jenkins",
+      "target": "Kubernetes",
+      "value": 2
+    },
+    {
+      "source": "Kubernetes",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "MySQL",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "Redis",
+      "value": 1
+    },
+    {
+      "source": "MySQL",
+      "target": "Redis",
+      "value": 1
+    },
+    {
+      "source": "GitLab CI",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Linux",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "GitLab CI",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "Docker",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Docker",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "Docker",
+      "value": 1
+    },
+    {
+      "source": "GitLab CI",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "GitLab CI",
+      "target": "Jenkins",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "Jenkins",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Jenkins",
+      "value": 1
+    },
+    {
+      "source": "Jenkins",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Jenkins",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "Jenkins",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "GitLab CI",
+      "value": 1
+    },
+    {
+      "source": "GitLab CI",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "GitLab CI",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "GitLab CI",
+      "value": 1
+    },
+    {
+      "source": "GitLab CI",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "GitLab CI",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "GitLab CI",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "Git",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Ansible",
+      "value": 1
+    },
+    {
+      "source": "Ansible",
+      "target": "Azure",
+      "value": 1
+    },
+    {
+      "source": "Nginx",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Linux",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "Terraform",
+      "value": 1
+    },
+    {
+      "source": "Linux",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "Nginx",
+      "value": 1
+    },
+    {
+      "source": "Git",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Git",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "Git",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "Azure",
+      "target": "Linux",
+      "value": 1
+    },
+    {
+      "source": "AWS",
+      "target": "Azure",
+      "value": 1
+    },
+    {
+      "source": "Django",
+      "target": "Java",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "Django",
+      "target": "JavaScript",
+      "value": 1
+    },
+    {
+      "source": "JavaScript",
+      "target": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "source": "JavaScript",
+      "target": "Redis",
+      "value": 1
+    },
+    {
+      "source": "Django",
+      "target": "React",
+      "value": 1
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "React",
+      "value": 1
+    },
+    {
+      "source": "React",
+      "target": "Redis",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "R",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Pandas",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "NumPy",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "TensorFlow",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "PyTorch",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Scikit-learn",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Spark",
+      "value": 1
+    },
+    {
+      "source": "Docker",
+      "target": "Kafka",
+      "value": 1
+    },
+    {
+      "source": "Kafka",
+      "target": "Kubernetes",
+      "value": 1
+    }
+  ]
+}
